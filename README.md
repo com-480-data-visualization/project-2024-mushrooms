@@ -9,6 +9,9 @@
 
 ## Milestone 1 (29th March, 5pm)
 
+*Notion: https://www.notion.so/Data-Visualization-729ab34b37ec42af81ec1b5e323177e9*
+*Colab: https://colab.research.google.com/drive/1r6TfL7NPU3GNvdljQVrPqL-P5TBA-N2k?authuser=0#scrollTo=5pyj_VWEzsvx*
+
 **10% of the final grade**
 
 This is a preliminary milestone to let you set up goals for your final project and assess the feasibility of your ideas.
