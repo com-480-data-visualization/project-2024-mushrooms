@@ -99,14 +99,14 @@ Through data preprocessing, visual EDA using T-SNE, and the employment of Lasso 
 it pinpoints all thoses significant variables.
 The author also performed a cluster analysis via K-means and hierarchical clustering to estimate the mushroom species. 
 
-<img src="figs-readme/UCI Mushroom Data/kmeans.png"  width="200"/>
-<img src="figs-readme/UCI Mushroom Data/hierarchy.png"  width="200"/>
+<img src="figs-readme/UCI Mushroom Data/kmeans.png" />
+<img src="figs-readme/UCI Mushroom Data/hierarchy.png" />
 
 These analysis enable the dataset to be leveraged by machine learning for biological classification and beyond. 
 The author took the KNN and Decision as examples and showed it's high classificatino accuracy. 
 Furthermore, the amount of features make it possible to do unsupervised learning on this dataset. 
 
-<img src="figs-readme/UCI Mushroom Data/tree.png"  width="200"/>
+<img src="figs-readme/UCI Mushroom Data/tree.png"/>
 
 #### Why is your approach original?
 
