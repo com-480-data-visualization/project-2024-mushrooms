@@ -1,5 +1,4 @@
 # TODO:
-2. Problematic
 3. Analysis: some code / histogram, groupby & count staffs
 
 # Project of Data Visualization (COM-480)
@@ -69,13 +68,21 @@ The high quality and depth of this dataset allow us to focus more on the visuali
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
+The main goal of our visualization project is to visualize the relationship between different features of mushrooms and also relate these features to their classification as edible or poisonous. 
+Our motivation stems from the potential to educate the public about mushroom safety. 
+By creating an interactive visualization, we aim to allow users to explore the characteristics of mushrooms that determine their edibility. 
+This project targets a broad audience, including biology students and also the general public with an interest in mushroom foraging. 
+Through our visualization, we want to provide insights into the diversity of mushrooms and raise awareness about the importance of identifying mushrooms accurately. 
 
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
-The initial exploratory data analysis will focus on examining the distribution of mushrooms across the edible and poisonous classifications and exploring the variance in their features. We will compute basic statistics such as counts, means, and standard deviations for each feature. Visualization techniques like histograms, box plots, and scatter plots will be employed to uncover patterns, relationships, and outliers within the data. This exploratory phase is crucial for gaining a deeper understanding of the dataset and guiding the development of our visualization strategies.
+The initial exploratory data analysis will focus on examining the distribution of mushrooms across the edible and poisonous classifications and exploring the variance in their features. 
+Visualization techniques like histograms, box plots, and scatter plots will be employed to uncover patterns, relationships, and outliers within the data. 
+This exploratory phase is crucial for gaining a deeper understanding of the dataset and guiding the development of our visualization strategies.
+It will be performed in the [Jupyter Note](mushroom.ipynb). 
 
 ### Related work
 
