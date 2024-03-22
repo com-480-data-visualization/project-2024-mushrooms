@@ -1,5 +1,4 @@
 # TODO:
-1. inspiration - way to visualize
 2. Problematic
 3. Analysis: some code / histogram, groupby & count staffs
 
@@ -85,16 +84,33 @@ The initial exploratory data analysis will focus on examining the distribution o
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
 
 #### What others have already done with the data?
+The UCI Mushroom Data Analysis (https://www.kaggle.com/code/aavigan/uci-mushroom-data) offers insights into previous analytical approaches to similar datasets. 
+
+It thoroughly analyzed the dataset and presented a comprehensive exploration on the feature behind the data. 
+Through data preprocessing, visual EDA using T-SNE, and the employment of Lasso regression 
+it pinpoints all thoses significant variables.
+The author also performed a cluster analysis via K-means and hierarchical clustering to estimate the mushroom species. 
+
+<img src="figs-readme/UCI Mushroom Data/kmeans.png"  width="200"/>
+<img src="figs-readme/UCI Mushroom Data/hierarchy.png"  width="200"/>
+
+These analysis enable the dataset to be leveraged by machine learning for biological classification and beyond. 
+The author took the KNN and Decision as examples and showed it's high classificatino accuracy. 
+Furthermore, the amount of features make it possible to do unsupervised learning on this dataset. 
+
+<img src="figs-readme/UCI Mushroom Data/tree.png"  width="200"/>
 
 #### Why is your approach original?
 
+Previous endeavors have primarily utilized the mushroom dataset for classification tasks in machine learning. 
+
+Our project mainly focuses on data visualization to provide educational insights on how to roughly classify a mushroom with human's eyes, rather than for predictive analysis. 
+
+
 #### What source of inspiration do you take? 
-
-Previous endeavors have primarily utilized the mushroom dataset for classification tasks in machine learning. Our project distinguishes itself by focusing on data visualization to provide educational insights rather than predictive analysis. While there are existing visualizations concerning mushrooms, our project is original in its comprehensive approach to exploring mushroom features and their implications for edibility. We draw inspiration from various sources, including:
-
+- The animation and color schemes from [Wine101](https://github.com/com-480-data-visualization/com-480-project-onvagagner/tree/master), and the website it referred to: [Pocket](https://pudding.cool/2018/08/pockets/)
 - 3000 Mushrooms - Book and App (https://www.123pilze.de/): A comprehensive guide to mushrooms, which serves as a reference for detailed mushroom descriptions and classifications.
 - Mushroom Calendar (https://www.123pilze.de/DreamHC/Download/Pilzkalender.htm): Provides seasonal information on mushroom appearances, aiding in our visualization of temporal patterns.
-- UCI Mushroom Data Analysis (https://www.kaggle.com/code/aavigan/uci-mushroom-data): Offers insights into previous analytical approaches to similar datasets.
 - Swissfungi Map (https://www.wsl.ch/map_fungi/search): Displays geographical distributions of fungi in Switzerland, inspiring our geographical visualizations.
 - Yunnan Geographical Distribution Study (https://www.researchgate.net/figure/Geographic-distribution-of-all-the-mushroom-samples-collected-in-markets-in-Yunnan_fig1_350972048): Provides a basis for understanding mushroom distribution in a specific region.
 
