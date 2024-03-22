@@ -29,8 +29,35 @@ For our project, we have selected the Mushroom dataset available on Kaggle (http
 
 It includes various features such as **cap shape**, **cap color**, **habitat**, and **odor**, making it ideal for our visualization objectives. 
 
+In addition to it, we also plan to explore some other mushroom related dataset such as [Pilzkalender](https://www.123pilze.de/pilzkalender_roehrlinge.html) for supplementary spatial and temporal information. 
+
+#### Mushroom Dataset
+| Field | Description |
+| - | - |
+| Class               | Indicates mushroom edibility (**poisonous=p, edible=e**) for classification (binary).             |
+| Cap-Diameter        | Diameter of the mushroom cap in cm (metrical).                                                |
+| Cap-Shape           | Shape of the mushroom cap, categorized as **bell (b)**, **conical (c)**, **convex (x)**, **flat (f)**, **sunken (s)**, **spherical (p)**, **others (o)** for any other shapes not listed explicitly. |
+| Cap-Surface         | Texture of the mushroom cap surface, categorized as **fibrous (i)**, **grooves (g)**, **scaly (y)**, **smooth (s)**, **shiny (h)**, **leathery (l)**, **silky (k)**, **sticky (t)**, **wrinkled (w)**, **fleshy (e)**. |
+| Cap-Color           | The color of the mushroom cap, with options such as brown, buff, gray, green, pink, purple, red, white, yellow, blue, orange, and black (nominal). |
+| Does-Bruise-or-Bleed| Indicates whether the mushroom bruises or bleeds when injured (nominal).                      |
+| Gill-Attachment     | How gills are attached to the stem, with options **adnate (a)**, **adnexed (x)**, **decurrent (d)**, **free (e)**, **sinuate (s)**, **pores (p)**, **none (f)**, **unknown (?)**. |
+| Gill-Spacing        | Spacing between gills, categorized as **close (c)**, **distant (d)**, **none (f)**.                       |
+| Gill-Color          | Color of the gills, matching the cap-color options (and **none=f**).                              |
+| Stem-Height         | Height of the mushroom stem in cm (metrical).                                                 |
+
+#### Mushroom Calendar(Pilzkalender)
+| Field | Description |
+| - | - |
+| Name                       | Common names of the mushroom in German                     |
+| Latein (wissenschaftlich)  | Scientific (Latin) name of the mushroom                    |
+| Vorkommen                  | Habitat or typical environment where the mushroom is found |
+| Wann                       | Season or time of year when the mushroom appears           |
+| Speisewert                 | Edibility rating (with specific values indicating the degree of edibility) |
+
 #### Preprocess
-The dataset is well-maintained and requires minimal preprocessing, mainly to address a few instances of missing data and to convert categorical attributes into a form suitable for visualization. The high quality and depth of this dataset allow us to focus more on the visualization aspects, with less concern about data cleaning.
+The Mushroom dataset is well-maintained and requires minimal preprocessing, mainly to address a few instances with data missing or format mistake, and to convert categorical attributes into a form suitable for visualization. 
+
+The high quality and depth of this dataset allow us to focus more on the visualization aspects, with less concern about data cleaning.
 
 ### Problematic
 
