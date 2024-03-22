@@ -82,7 +82,7 @@ Through our visualization, we want to provide insights into the diversity of mus
 The initial exploratory data analysis will focus on examining the distribution of mushrooms across the edible and poisonous classifications and exploring the variance in their features. 
 Visualization techniques like histograms, box plots, and scatter plots will be employed to uncover patterns, relationships, and outliers within the data. 
 This exploratory phase is crucial for gaining a deeper understanding of the dataset and guiding the development of our visualization strategies.
-It will be performed in the [Jupyter Note](mushroom.ipynb). 
+It will be performed in the [Jupyter Note](milestone1/mushroom.ipynb). 
 
 ### Related work
 
