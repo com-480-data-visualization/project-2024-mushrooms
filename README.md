@@ -9,8 +9,8 @@
 
 ## Milestone 1 (29th March, 5pm)
 
-*Notion: https://www.notion.so/Data-Visualization-729ab34b37ec42af81ec1b5e323177e9*
-*Colab: https://colab.research.google.com/drive/1r6TfL7NPU3GNvdljQVrPqL-P5TBA-N2k?authuser=0#scrollTo=5pyj_VWEzsvx*
+> *Notion: https://www.notion.so/Data-Visualization-729ab34b37ec42af81ec1b5e323177e9*
+> *Colab: https://colab.research.google.com/drive/1r6TfL7NPU3GNvdljQVrPqL-P5TBA-N2k?authuser=0#scrollTo=5pyj_VWEzsvx*
 
 **10% of the final grade**
 
@@ -25,6 +25,13 @@ Please, fill the following sections about your project.
 >
 > Hint: some good pointers for finding quality publicly available datasets ([Google dataset search](https://datasetsearch.research.google.com/), [Kaggle](https://www.kaggle.com/datasets), [OpenSwissData](https://opendata.swiss/en/), [SNAP](https://snap.stanford.edu/data/) and [FiveThirtyEight](https://data.fivethirtyeight.com/)), you could use also the DataSets proposed by the ENAC (see the Announcements section on Zulip).
 
+For our project, we have selected the Mushroom dataset available on Kaggle (https://www.kaggle.com/datasets/vishalpnaik/mushroom-classification-edible-or-poisonous) as the primary dataset. This dataset provides extensive information on mushroom characteristics, classified as edible or poisonous. 
+
+It includes various features such as **cap shape**, **cap color**, **habitat**, and **odor**, making it ideal for our visualization objectives. 
+
+#### Preprocess
+The dataset is well-maintained and requires minimal preprocessing, mainly to address a few instances of missing data and to convert categorical attributes into a form suitable for visualization. The high quality and depth of this dataset allow us to focus more on the visualization aspects, with less concern about data cleaning.
+
 ### Problematic
 
 > Frame the general topic of your visualization and the main axis that you want to develop.
@@ -36,13 +43,24 @@ Please, fill the following sections about your project.
 > Pre-processing of the data set you chose
 > - Show some basic statistics and get insights about the data
 
-### Related work
+The initial exploratory data analysis will focus on examining the distribution of mushrooms across the edible and poisonous classifications and exploring the variance in their features. We will compute basic statistics such as counts, means, and standard deviations for each feature. Visualization techniques like histograms, box plots, and scatter plots will be employed to uncover patterns, relationships, and outliers within the data. This exploratory phase is crucial for gaining a deeper understanding of the dataset and guiding the development of our visualization strategies.
 
+### Related work
 
 > - What others have already done with the data?
 > - Why is your approach original?
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+Previous endeavors have primarily utilized the mushroom dataset for classification tasks in machine learning. Our project distinguishes itself by focusing on data visualization to provide educational insights rather than predictive analysis. While there are existing visualizations concerning mushrooms, our project is original in its comprehensive approach to exploring mushroom features and their implications for edibility. We draw inspiration from various sources, including:
+
+- 3000 Mushrooms - Book and App (https://www.123pilze.de/): A comprehensive guide to mushrooms, which serves as a reference for detailed mushroom descriptions and classifications.
+- Mushroom Calendar (https://www.123pilze.de/DreamHC/Download/Pilzkalender.htm): Provides seasonal information on mushroom appearances, aiding in our visualization of temporal patterns.
+- UCI Mushroom Data Analysis (https://www.kaggle.com/code/aavigan/uci-mushroom-data): Offers insights into previous analytical approaches to similar datasets.
+- Swissfungi Map (https://www.wsl.ch/map_fungi/search): Displays geographical distributions of fungi in Switzerland, inspiring our geographical visualizations.
+- Yunnan Geographical Distribution Study (https://www.researchgate.net/figure/Geographic-distribution-of-all-the-mushroom-samples-collected-in-markets-in-Yunnan_fig1_350972048): Provides a basis for understanding mushroom distribution in a specific region.
+
+Our project aims to combine these elements into an interactive and educational visualization that stands out for its focus on public engagement and knowledge dissemination regarding mushroom safety and classification.
 
 ## Milestone 2 (26th April, 5pm)
 
