@@ -69,6 +69,8 @@ The high quality and depth of this dataset allow us to focus more on the visuali
 > - What am I trying to show with my visualization?
 > - Think of an overview for the project, your motivation, and the target audience.
 
+Mushrooms are quite fascinating species. Each type of mushroom has its own shape, appearance, size, and texture. Different environments and climates also give rise to various kinds of mushrooms. We hope to present the various characteristics of mushrooms and their relationship with the environment through data visualization.
+
 ### Exploratory Data Analysis
 
 > Pre-processing of the data set you chose
