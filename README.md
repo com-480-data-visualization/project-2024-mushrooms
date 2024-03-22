@@ -1,3 +1,8 @@
+# TODO:
+1. inspiration - way to visualize
+2. Problematic
+3. Analysis: some code / histogram, groupby & count staffs
+
 # Project of Data Visualization (COM-480)
 
 | Student's name | SCIPER |
@@ -78,6 +83,12 @@ The initial exploratory data analysis will focus on examining the distribution o
 > - Why is your approach original?
 > - What source of inspiration do you take? Visualizations that you found on other websites or magazines (might be unrelated to your data).
 > - In case you are using a dataset that you have already explored in another context (ML or ADA course, semester project...), you are required to share the report of that work to outline the differences with the submission for this class.
+
+#### What others have already done with the data?
+
+#### Why is your approach original?
+
+#### What source of inspiration do you take? 
 
 Previous endeavors have primarily utilized the mushroom dataset for classification tasks in machine learning. Our project distinguishes itself by focusing on data visualization to provide educational insights rather than predictive analysis. While there are existing visualizations concerning mushrooms, our project is original in its comprehensive approach to exploring mushroom features and their implications for edibility. We draw inspiration from various sources, including:
 
