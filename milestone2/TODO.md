@@ -29,17 +29,27 @@ Sketch: Map visualization with filters and hover-over effects for detailed infor
 
 ## Tools and Resources
 
-**Data Handling and Preprocessing**: Python, Pandas
+1. **Data Handling and Preprocessing**: Python, Pandas
 
-**Data Visualization**: D3.js for interactive web visualizations, Python (Matplotlib, Seaborn) for preliminary data exploration
+2. **Data Visualization**: D3.js for interactive web visualizations, Python (Matplotlib, Seaborn) for preliminary data exploration
 
-**Web Development**: HTML, CSS, JavaScript for front-end; Flask/Django for backend if necessary
+3. **Web Development**: HTML, CSS, JavaScript for front-end; Flask/Django for backend if necessary
 
-**Hosting/Deployment**: GitHub Pages or Heroku
+4. **Hosting/Deployment**: GitHub Pages or Heroku
 
 ## Relevant Lectures
 
-**TODOTODOTDOTODO**
+1. JavaScript and D3.js: "Learned basic JavaScript syntax and the D3.js framework for visualizing data."
+
+2. Data: "We pre-processed the gathered data using techniques taught in this lecture."
+
+3. Interactions, Perception Colors, Mark, Channels, Do and Don't in Viz, and Designing Viz: "The colors of the graphs were chosen based on the lectures on Perception, Color, and Do and Don't in Viz to enhance interpretability. Additionally, geometric distortion was employed to reveal more details about the distribution of mushrooms and help readers grasp the information more easily."
+
+4. Maps and Graph Viz: "With data collected from mushrooms in Switzerland and its vicinity, we aim to create maps and graphs illustrating the relationship between features such as edibility, color, size, shape, and geographical distribution. To achieve this successfully, we will utilize the knowledge from the lectures on Maps and Graph Viz."
+
+5. Tabular data: "Tabular data provides readers with more intuitive feedback on the data. For example, a star plot can demonstrate the toxicity of mushrooms more concisely."
+
+6. Storytelling: "Storytelling plays an important role in capturing readers' interest in our project."
 
 ## Project Breakdown
 
