@@ -1,0 +1,21 @@
+#visualization {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 使图形垂直居中显示 */
+}
+
+svg {
+    display: block; /* SVG响应式宽度 */
+    max-width: 600px; /* SVG的最大宽度 */
+    margin: auto; /* 水平居中 */
+}
+
+.bar {
+    fill: steelblue; /* 初始柱状图颜色 */
+    transition: fill 0.5s ease; /* 平滑过渡动画 */
+}
+
+.bar:hover {
+    fill: orange; /* 鼠标悬浮时的颜色 */
+}
