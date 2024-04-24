@@ -1,8 +1,11 @@
+
 #visualization {
+    position: relative; 
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh; /* 使图形垂直居中显示 */
+    z-index: 100000; /* 确保图形位于波浪之上 */
 }
 
 svg {
@@ -12,7 +15,7 @@ svg {
 }
 
 :root {
-    --default-bg-color: #fff; /* 默认背景色 */
+    --default-bg-color: #ececec; /* 默认背景色 */
     --default-bar-color: steelblue; /* 默认柱状图颜色 */
 }
 
@@ -39,6 +42,7 @@ svg {
 
 body {
     background-color: var(--default-bg-color); /* 使用 CSS 变量 */
+    transition: background-color 0.5s ease; /* 平滑过渡背景色 */
 }
     
 
@@ -49,4 +53,5 @@ body {
 
 .bar:hover {
     fill: orange; /* 鼠标悬浮时的颜色 */
+    transition: fill 0.3s ease; /* 鼠标悬浮过渡效果 */
 }
