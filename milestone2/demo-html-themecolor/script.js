@@ -6,13 +6,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { season: "Winter", value: 5267}
     ];
 
-    const themeColors = {
-        "Spring": "#a8e4a0",
-        "Summer": "#ffd700",
-        "Autumn": "#ff6347",
-        "Winter": "#add8e6"
-    };
-
     const margin = { top: 20, right: 20, bottom: 30, left: 40 };
     const width = 560 - margin.left - margin.right;
     const height = 400 - margin.top - margin.bottom;
@@ -29,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const y = d3.scaleLinear()
         .rangeRound([height, 0])
-        .domain([0, d3.max(data, d => d.value)]);
+        .domain([0, 32000]);
 
     svg.append("g")
         .attr("transform", `translate(0,${height})`)
@@ -46,9 +39,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .attr("y", d => y(d.value))
         .attr("height", d => height - y(d.value))
         .attr("width", x.bandwidth())
-        .attr("fill", "steelblue")
         .on("click", function(event, d) {
-            document.body.style.backgroundColor = themeColors[d.season];
-            d3.selectAll(".bar").attr("fill", themeColors[d.season]); // 更改所有bar的颜色
+            document.body.className = ''; // 清除之前的主题类
+            document.body.classList.add(`theme-${d.season.toLowerCase()}`); // 应用新的主题类
         });
 });

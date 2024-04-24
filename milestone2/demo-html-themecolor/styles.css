@@ -11,8 +11,39 @@ svg {
     margin: auto; /* 水平居中 */
 }
 
+:root {
+    --default-bg-color: #fff; /* 默认背景色 */
+    --default-bar-color: steelblue; /* 默认柱状图颜色 */
+}
+
+/* 主题配色方案 */
+.theme-spring {
+    --default-bg-color: #d7f5d3;
+    --default-bar-color: #5e813d;
+}
+
+.theme-summer {
+    --default-bg-color: #f6cec7;
+    --default-bar-color: #cc4c02;
+}
+
+.theme-autumn {
+    --default-bg-color: #f7f0ca;
+    --default-bar-color: #9f8033;
+}
+
+.theme-winter {
+    --default-bg-color: #add8e6;
+    --default-bar-color: #6cace4;
+}
+
+body {
+    background-color: var(--default-bg-color); /* 使用 CSS 变量 */
+}
+    
+
 .bar {
-    fill: steelblue; /* 初始柱状图颜色 */
+    fill: var(--default-bar-color); /* 初始柱状图颜色 */
     transition: fill 0.5s ease; /* 平滑过渡动画 */
 }
 
