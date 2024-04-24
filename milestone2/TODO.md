@@ -1,6 +1,7 @@
 # TODO LIST
 !!!!! the used lectures
 !!!!! https://docs.github.com/en/pages
+!!!! ANIMATION: https://alvarotrigo.com/fullPage/#page4
 
 # Two A4 pages describing the project goal
 
