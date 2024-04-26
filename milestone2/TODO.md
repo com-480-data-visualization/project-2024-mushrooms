@@ -9,7 +9,7 @@
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility.
 
 Sketch: Include a simple diagram showing a scatter plot with dropdown options for different features.
-<img src="../figs/IMG_9770.JPG" alt="Your Image">
+<img src="/figs/IMG_9770.JPG" alt="Your Image">
 
 ### Distribution Charts:
 
