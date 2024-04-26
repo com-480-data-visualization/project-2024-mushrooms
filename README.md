@@ -127,7 +127,7 @@ Our project aims to combine these elements into an interactive and educational v
 
 ## Milestone 2 (26th April, 5pm)
 
-Please click the following links to see the report and the initial website. [report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/report.md) [website](https://html-preview.github.io/?url=https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/index.html)
+Please click the following links to see the report and the initial website. [report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/Report.md) [website](https://html-preview.github.io/?url=https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/index.html)
 
 
 ## Milestone 3 (31st May, 5pm)
