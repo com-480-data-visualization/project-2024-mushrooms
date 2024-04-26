@@ -9,7 +9,7 @@
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility.
 
 Sketch: Include a simple diagram showing a scatter plot with dropdown options for different features.
-<img src="/figs/IMG_9770.JPG" alt="Your Image">
+<img src="milestone2/figs/IMG_9770.JPG" alt="hist">
 
 ### Distribution Charts:
 
@@ -51,7 +51,7 @@ Sketch: Map visualization with filters and hover-over effects for detailed infor
 
 ### Core Visualization (Minimal Viable Product)
 A basic interactive scatter plot that allows users to select features and visualize the correlation with mushroom edibility.
-(Also need to show there's a strong correlation between the mushrooms' appearance and their poisoness)
+(Also need to show there's a strong correlation between the mushrooms' appearance and their toxicity)
 
 Distribution charts showing the basic statistical breakdown of mushroom features like color and shape.
 
