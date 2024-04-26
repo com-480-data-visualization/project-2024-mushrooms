@@ -8,29 +8,28 @@
 
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility.
 
-Sketch: Include a simple diagram showing a scatter plot with dropdown options for different features.
+Sketch: Include a simple diagram showing a bubble plot with different features. The size of a bubble indicates the number of mushrooms with these features, and the color means edibility and toxicity. 
 [fig1](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9771.JPG)
-<img src="figs/IMG_9771.JPG" alt="img1", height = "50%", width = "100%">
 
-Sketch: Include an interface with several bars allowing users to select mushrooms with desired features.
-<img src="figs/IMG_9773.JPG" alt="img2", height="50%", width="50%">
+Sketch: Include an interface with several bars allowing users to select mushrooms with desired features, such as cap diameter, color, size, etc.
+[fig2](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9773.JPG)
 
 ### Distribution Charts:
 
-Description: Histograms or bar charts that display the distribution of mushrooms based on selected features like color, habitat, etc., segmented by edibility.
+Description: Histograms or stacked area charts that display the distribution of mushrooms based on selected features like color, habitat, etc., segmented by edibility.
 
 Sketch: Depict histograms segmented by color with controls for switching the feature.
-<img src="figs/IMG_9770.JPG" alt="img3", height="100", width="100">
+[fig3](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9770.JPG)
 
 Sketch: A stacked area chart to visualize discrete features.
-<img src="figs/IMG_9772.JPG" alt="img4", height="100", width="100">
+[fig4](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9772.JPG)
 
 
 ### Geographical Map:
 
 Description: A map showing locations where different types of mushrooms are commonly found, with filters for edibility and type.
 
-Sketch: Map visualization with filters and hover-over effects for detailed information
+Sketch: Map visualization with filters and hover-over effects for detailed information, this part is still under construction.
 
 
 ## Tools and Resources
@@ -45,17 +44,13 @@ Sketch: Map visualization with filters and hover-over effects for detailed infor
 
 ## Relevant Lectures
 
-1. JavaScript and D3.js: Learned basic JavaScript syntax and the D3.js framework for visualizing data.
+1. Week 1-5 : Learned basic JavaScript syntax and D3.js framework for data visualization.
 
-2. Data: We pre-processed the gathered data using techniques taught in this lecture.
+2. Week 5-7 : Learned design principles for data visualization, including color selection, layouts, and dos and don'ts.
 
-3. Interactions, Perception Colors, Mark, Channels, Do and Don't in Viz, and Designing Viz: The colors of the graphs were chosen based on the lectures on Perception, Color, and Do and Don't in Viz to enhance interpretability. Additionally, geometric distortion was employed to reveal more details about the distribution of mushrooms and help readers grasp the information more easily.
+3. Map : Since we are going to visualize the geographical distribution of mushrooms within Switzerland and its vicinity, it is important to learn how to draw a map that clearly conveys useful information to readers. We aim to study more about proportional symbol map so we can better demonstrate the relationship between features and living places.  
 
-4. Maps and Graph Viz: With data collected from mushrooms in Switzerland and its vicinity, we aim to create maps and graphs illustrating the relationship between features such as edibility, color, size, shape, and geographical distribution. To achieve this successfully, we will utilize the knowledge from the lectures on Maps and Graph Viz.
-
-5. Tabular data: Tabular data provides readers with more intuitive feedback on the data. For example, a star plot can demonstrate the toxicity of mushrooms more concisely.
-
-6. Storytelling: We are going to add background stories for mushrooms to attract underlying readers. 
+4. Storytelling : We want to catch reader's eyes by adding background stories for mushrooms and make visualizations more appealing.
 
 ## Project Breakdown
 
