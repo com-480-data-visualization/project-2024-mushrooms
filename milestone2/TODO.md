@@ -9,20 +9,20 @@
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility.
 
 Sketch: Include a simple diagram showing a scatter plot with dropdown options for different features.
-<img src="figs/IMG_9771.JPG" alt="Features", height="100", width="100">
+<img src="figs/IMG_9771.JPG" alt="img1">
 
 Sketch: Include an interface with several bars allowing users to select mushrooms with desired features.
-<img src="figs/IMG_9773.JPG" alt="Features", height="100", width="100">
+<img src="figs/IMG_9773.JPG" alt="img2", height="100", width="100">
 
 ### Distribution Charts:
 
 Description: Histograms or bar charts that display the distribution of mushrooms based on selected features like color, habitat, etc., segmented by edibility.
 
 Sketch: Depict histograms segmented by color with controls for switching the feature.
-<img src="figs/IMG_9770.JPG" alt="Features", height="100", width="100">
+<img src="figs/IMG_9770.JPG" alt="img3", height="100", width="100">
 
 Sketch: A stacked area chart to visualize discrete features.
-<img src="figs/IMG_9772.JPG" alt="Features", height="100", width="100">
+<img src="figs/IMG_9772.JPG" alt="img4", height="100", width="100">
 
 
 ### Geographical Map:
