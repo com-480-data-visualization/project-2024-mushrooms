@@ -4,25 +4,27 @@
 1. Put the dataset visualization on the website (allow users to choose axis(1-2 feature, poisonous is always chosen), maybe the color of points to show the edibility)
 2. Realize a little widget which illustrate the mushroom in real-time according to user's input (choose shape, slides size, etc.)
 
+
+
+### Distribution Charts:
+
+Description: Histograms or stacked area charts that display the distribution of mushrooms based on selected features like color, habitat, etc., segmented by edibility. 
+
+Sketch: Depict histograms segmented by color with controls for switching the data displayed according to the season. Classify all the data by seasons into 4 subsets, and changes the theme color accordingly to the selected season. 
+![fig3](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9770.JPG)
+
+Sketch: A stacked area chart to visualize discrete features. 
+![fig4](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9772.JPG)
+
 ### Interactive Scatter Plot: 
 
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility. 
 
-Sketch: Include a simple diagram showing a bubble plot with different features. The size of a bubble indicates the number of mushrooms with these features, and the color means edibility and toxicity. 
+Sketch: Include a simple diagram showing a bubble plot with different features. The size of a bubble indicates the number of mushrooms with these features, and the color means edibility and toxicity. While there are mushrooms with similar features but not the same edibility, change the color of the bubble into yellow or orange according to the ratio of the edible mushrooms and toxic ones. 
 ![fig1](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9771.JPG)
 
-Sketch: Include an interface with several bars allowing users to select mushrooms with desired features, such as cap diameter, color, size, etc.
+Sketch: Include an interface with several bars allowing users to select mushrooms with desired features, such as cap diameter, color, size, etc. And visualize the corresponding mushrooms looking at the side in realtime. Use a floating box to indicate the possibility that the mushroom with the selected features is edible. 
 ![fig2](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9773.JPG)
-
-### Distribution Charts:
-
-Description: Histograms or stacked area charts that display the distribution of mushrooms based on selected features like color, habitat, etc., segmented by edibility.
-
-Sketch: Depict histograms segmented by color with controls for switching the feature.
-![fig3](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9770.JPG)
-
-Sketch: A stacked area chart to visualize discrete features.
-![fig4](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/figs/IMG_9772.JPG)
 
 
 ### Geographical Map:
