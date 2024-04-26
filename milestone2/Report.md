@@ -65,7 +65,7 @@ Distribution charts showing the basic statistical breakdown of mushroom features
 Advanced filtering options in the scatter plot and distribution charts to allow users to drill down into specific subcategories.
 (Visualize the filter with a mushroom painted aside, to give the user's a intuitive feel for the look of the mushroom.)
 
-Integration of a geographical map that adds an additional layer of data visualization showing the natural habitats of different mushrooms.
+Integration of a geographical map that adds an additional layer of data visualization showing the natural habitats of different mushrooms. 
 
 
 # Functional project prototype review
