@@ -127,7 +127,7 @@ Our project aims to combine these elements into an interactive and educational v
 
 ## Milestone 2 (26th April, 5pm)
 
-**10% of the final grade**
+[report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone2/TODO.md)
 
 
 ## Milestone 3 (31st May, 5pm)
