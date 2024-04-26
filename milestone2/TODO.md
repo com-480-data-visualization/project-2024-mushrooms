@@ -1,19 +1,15 @@
-# TODO LIST
-!!!!! the used lectures
-!!!!! https://docs.github.com/en/pages
-!!!! ANIMATION: https://alvarotrigo.com/fullPage/#page4
-
 # Two A4 pages describing the project goal
 
 ## Sketches of Visualizations
-1. Put the dataset visualization on the wesite (allow users to choose axis(1-2 feature, poinous is always chosen), maybe the color of points to show the edibility)
-2. Realize a little widget which illustrate the mushroom in realtime according to user's input (choose shape, slides size, etc.)
+1. Put the dataset visualization on the website (allow users to choose axis(1-2 feature, poisonous is always chosen), maybe the color of points to show the edibility)
+2. Realize a little widget which illustrate the mushroom in real-time according to user's input (choose shape, slides size, etc.)
 
 ### Interactive Scatter Plot:
 
 Description: Users can select different mushroom features from dropdown menus to visualize how these attributes correlate with mushroom edibility.
 
 Sketch: Include a simple diagram showing a scatter plot with dropdown options for different features.
+<img src="../figs/IMG_9770.JPG" alt="Your Image">
 
 ### Distribution Charts:
 
