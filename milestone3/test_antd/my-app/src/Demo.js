@@ -5,7 +5,7 @@ import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
 
-import Page1 from './pages/page1';
+import Stack from './pages/stack';
 import HomePage from './pages/homepage';
 
 
@@ -104,7 +104,7 @@ const App = () => {
             >
               <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/subpage1" element={<Page1 />} />
+                <Route path="/subpage1" element={<Stack />} />
               </Routes>
             </Content>
           </Layout>
