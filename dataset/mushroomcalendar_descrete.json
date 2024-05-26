@@ -1,0 +1,386 @@
+[
+    {
+        "Name": "Anh\u00e4ngselr\u00f6hrling, Gelber Steinpilz, Gelber Bronzer\u00f6hrling,",
+        "Latein (wissenschaftlich)": "BOLETUS APPENDICULATUS (Buchenwald Kalk) , BOLETUS SUBAPPENDICULATUS (Falscher Anh\u00e4ngselr\u00f6hrling \u2013 Nadelwald)",
+        "Vorkommen": "Laubw\u00e4lder",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Aprikosenfarbiger R\u00f6hrling",
+        "Latein (wissenschaftlich)": "BOLETUS ARMENIACUS",
+        "Vorkommen": "Mischwald, w\u00e4rmeliebend, in Deutschland selten, Im Mittelmeerraum h\u00e4ufig.",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Birkenpilz, Gemeiner Birkenpilz, Langhaxen",
+        "Latein (wissenschaftlich)": "LECCINUM SCABRUM",
+        "Vorkommen": "Symbiosepilz mit Birke",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Birkenrotkappe, Heiderotkappe, Schwarzschuppiger Birkenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "LECCINUM TESTACEOSCABRUM (SYN. LECCINUM VERSIPELLE)",
+        "Vorkommen": "Birken, Symbiosepilz zur Birke.",
+        "Wann": "Fr\u00fchling bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Blassh\u00fctiger R\u00f6hrling, Gefleckth\u00fctiger R\u00f6hrling,",
+        "Latein (wissenschaftlich)": "BOLETUS DEPILATUS",
+        "Vorkommen": "Laubwald, gern Haibuchen, kalkreicher trockener Boden, Symbiosepilz",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Blutroter R\u00f6hrling, Blutroter Filzr\u00f6hrling, Blutroter Rotfu\u00dfr\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS RUBELLUS",
+        "Vorkommen": "Mischwald, gern Eichenbegleiter",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Butterr\u00f6hrling, Butterpilz",
+        "Latein (wissenschaftlich)": "SUILLUS LUTEUS",
+        "Vorkommen": "Butterr\u00f6hrlinge sind Mykorrhizapilze (Symbiosepilze) mit den Kiefern (F\u00f6hren)",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Eichenfilzr\u00f6hrling, Blutender Eichenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS COMMUNIS",
+        "Vorkommen": "Laubwald: Eiche, Birke, Buche, Linde und Hainbuche = Symbiosepilz, sehr selten.",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Eichenrotkappe, Eichenraufuss",
+        "Latein (wissenschaftlich)": "LECCINUM QUERCINUM",
+        "Vorkommen": "Eichen-Symbiont d.h. immer Eichen in der N\u00e4he",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Elfenbeinr\u00f6hrling, Weymouthsr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS PLACIDUS",
+        "Vorkommen": "Elfenbeinr\u00f6hrling ist ein Mykorrhizapilz (Symbiosepilz) der Zirbelkiefer (pinus cembra)",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Espenrotkappe, Roth\u00e4ubchen, Pappelrotkappe",
+        "Latein (wissenschaftlich)": "LECCINUM AURANTIACUM",
+        "Vorkommen": "Zitterpappeln, Symbiosepilz zur Pappel.",
+        "Wann": "Fr\u00fchling bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Falscher Rotfu\u00dfr\u00f6hrling, D\u00fcsterner Rotfu\u00dfr\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS POROSPORUS",
+        "Vorkommen": "Mischwald, Symbiosepilz, sehr h\u00e4ufig.",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Fichtenrotkappe",
+        "Latein (wissenschaftlich)": "LECCINUM PICEINUM",
+        "Vorkommen": "Fichten, Heidelbeeren (Symbiosepilz)",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Flockenstieliger Hexenr\u00f6hrling, Flocki, Zigeuner, Hexenpilz",
+        "Latein (wissenschaftlich)": "BOLETUS ERYTHROPUS (SYN. BOLETUS LURIDIFORMIS)",
+        "Vorkommen": "Mischwald, saurer Boden",
+        "Wann": "Fr\u00fchling bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Gelber Hohfu\u00dfr\u00f6hrling, Gelber Hohlfu\u00df",
+        "Latein (wissenschaftlich)": "SUILLUS CAVIPES F. AEREUS (GELBE FORM)",
+        "Vorkommen": "Symbiosepilz unter L\u00e4rchen wachsend, vorliebend auf sauren Boden",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Glattstieliger Hexenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "BOLETUS QUELETII",
+        "Vorkommen": "Laubwald",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Goldr\u00f6hrling, Goldgelber L\u00e4rchenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS GREVILLEI",
+        "Vorkommen": "Mykorrhiza-Pilze (Symbiosepilze) mit der L\u00e4rche",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Grauer L\u00e4rchenr\u00f6hrling, Graublasser L\u00e4rchenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS VISCIDUS (SYN. SUILLUS LARICINUS, SUILLUS AERUGINASCENS)",
+        "Vorkommen": "L\u00e4rchen, kalkreicher Boden",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Hainbuchenr\u00f6hrling, Hainbuchenraufu\u00dfr\u00f6hrling, Hainbuchenraufu\u00df",
+        "Latein (wissenschaftlich)": "LECCINUM CARPINI",
+        "Vorkommen": "Laubwald (Symbiosepilz), meist unter Hainbuchen",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Hasenr\u00f6hrling, Zimtr\u00f6hrling",
+        "Latein (wissenschaftlich)": "GYROPORUS CASTANEUS",
+        "Vorkommen": "Laubwald, Eichen, Haselnuss",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Herbstrotfu\u00dfr\u00f6hrling, Bereifter Rotfu\u00dfr\u00f6hrling,",
+        "Latein (wissenschaftlich)": "BOLETUS PRUINATUS",
+        "Vorkommen": "Mischwald, Symbiosepilz, sehr h\u00e4ufig",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Hohlfu\u00dfr\u00f6hrling, Brauner Hohlfu\u00dfr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS CAVIPES\u00a0 (SYN. BOLETINUS CAVIPES)",
+        "Vorkommen": "Symbiosepilz unter L\u00e4rchen wachsend",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Kiefernrotkappe, Fuchsrotkappe, F\u00f6hrenrotkappe, Fuchsr\u00f6hrling",
+        "Latein (wissenschaftlich)": "LECCINUM VULPINUM",
+        "Vorkommen": "Nadelwald, Kiefern, F\u00f6hren (Symbiosepilz)",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Kiefernsteinpilz, Roth\u00fctiger Steinpilz, Gemeiner Steinpilz",
+        "Latein (wissenschaftlich)": "BOLETUS PINOPHILUS",
+        "Vorkommen": "Meist Kiefern, Symbiosepilz, gelegentlich aber auch bei Wei\u00dftanne und Fichte",
+        "Wann": "Fr\u00fchsommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Kornblumenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "GYROPORUS CYANESCENS (GYROPORUS CYANESCENS VAR. LACTEUS)",
+        "Vorkommen": "Mischwald",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Kuhr\u00f6hrling, Kuhpilz",
+        "Latein (wissenschaftlich)": "SUILLUS BOVINUS",
+        "Vorkommen": "Kiefern, n\u00e4hrstoffarmer Boden.",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "K\u00f6rnchenr\u00f6hrling, Schmerling",
+        "Latein (wissenschaftlich)": "SUILLUS GRANULATUS",
+        "Vorkommen": "Kiefer",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Maronenr\u00f6hrling, Braunkappen, Braunkuppen, Braune, Br\u00e4unling, Marone",
+        "Latein (wissenschaftlich)": "XEROCOMUS BADIUS",
+        "Vorkommen": "Mischwald",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Mediterraner K\u00f6rnchenr\u00f6hrling, Mittelmeer-K\u00f6rnchen-R\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS MEDITERRANEENSIS (SYN. S.\u00a0LEPTOPUS)",
+        "Vorkommen": "Meist kalkreicher Boden, unter Kiefern ist er ein Mykorrhizapilz (Symbiosepilz)",
+        "Wann": "Herbst bis Fr\u00fchjahr",
+        "Speisewert": 4.0,
+        "count": 1
+    },
+    {
+        "Name": "Moorr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS FLAVIDUS",
+        "Vorkommen": "Kiefernwald",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 4.0,
+        "count": 1
+    },
+    {
+        "Name": "M\u00e4hrischer Filzr\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS MORAVICUS",
+        "Vorkommen": "Mischwald, meist Laubwald, besonders bei Eichen, Symbiosepilz",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Nadelholzr\u00f6hrling, Rostbrauner Goldr\u00f6hrling",
+        "Latein (wissenschaftlich)": "PULVEROBOLETUS LIGNICOLA",
+        "Vorkommen": "Fu\u00df von Nadelb\u00e4umen",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Pappel-Raufu\u00df, Pappelr\u00f6hrling",
+        "Latein (wissenschaftlich)": "LECCINUM DURIUSCULUM (SYN: LECCINUM AURANTIACUM S. DURIUSCULUM, KROMBHOLZIA AURANTIACA)",
+        "Vorkommen": "Pappel-Symbiont d.h. immer Pappel (Zitterpappeln) in der N\u00e4he,",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Pfefferr\u00f6hrling, Pfeffrige Zwerg-R\u00f6hrling",
+        "Latein (wissenschaftlich)": "CHALCIPORUS PIPERATUS",
+        "Vorkommen": "Mischwald",
+        "Wann": "Fr\u00fchsommer bis Sp\u00e4therbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Ringloser Butterpilz, Ringlose Butterr\u00f6hrling, Rosaf\u00fc\u00dfige K\u00f6rnchenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS COLLINITUS, (SYN. SUILLUS FLURYI)",
+        "Vorkommen": "Kalkreicher Boden, Waldr\u00e4ndern, Parks, unter Kiefern ist er ein Mykorrhizapilz",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 4.0,
+        "count": 1
+    },
+    {
+        "Name": "Rostroter L\u00e4rchenr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS TRIDENTINUS",
+        "Vorkommen": "L\u00e4rchen",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Rotfu\u00dfr\u00f6hrling, Gemeiner Rotfu\u00dfr\u00f6hrling, Echter Rotfu\u00dfr\u00f6hrling, Rotfu\u00df",
+        "Latein (wissenschaftlich)": "XEROCOMUS CHRYSENTERON",
+        "Vorkommen": "Mischwald, Symbiosepilz, sehr h\u00e4ufig.",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Sandr\u00f6hrling, Hirsepilz",
+        "Latein (wissenschaftlich)": "SUILLUS VARIEGATUS",
+        "Vorkommen": "Bei Kiefern, saurem Boden, Symbiosepilz (Mykorrhiza-begleiter der Kiefer)",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Schmarotzerr\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS PARASITICUS",
+        "Vorkommen": "Er w\u00e4chst meist auf dem \u201eDickschaligen Kartoffelbovist\u201c (SCLERODERMA CITRINUM)",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Schwarzblauender R\u00f6hrling, Blauf\u00e4rbender R\u00f6hrling",
+        "Latein (wissenschaftlich)": "BOLETUS PULVERULENTUS",
+        "Vorkommen": "Mischwald",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Sommersteinpilz, Eichensteinpilz, Schwarzer Steinpilz",
+        "Latein (wissenschaftlich)": "EICHENSTEINPILZ (BOLETUS RETICULATUS), SCHWARZER STEINPILZ (BOLETUS AEREUS)",
+        "Vorkommen": "Mischwald, gerne Fichten oder Buchen",
+        "Wann": "Fr\u00fchsommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Steinpilz, Fichtensteinpilz, Gemeiner Steinpilz",
+        "Latein (wissenschaftlich)": "BOLETUS EDULIS",
+        "Vorkommen": "Mischwald",
+        "Wann": "Fr\u00fchsommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Vielverf\u00e4rbender Birkenpilz, Blauverf\u00e4rbender Birkenpilz,",
+        "Latein (wissenschaftlich)": "LECCINUM VARIICOLOR",
+        "Vorkommen": "Laubwald, Mischwald, nur bei Birken, saurer Boden, nie kalkreicher Boden,",
+        "Wann": "Fr\u00fchsommer bis Herbst",
+        "Speisewert": 2.0,
+        "count": 1
+    },
+    {
+        "Name": "Wei\u00dfbrauner Schmierr\u00f6hrling, Kleinsporiger Kiefernr\u00f6hrling",
+        "Latein (wissenschaftlich)": "SUILLUS BELLINII (SYN. BOLETUS BELLINII, IXOCOMUS BELLINII, ROSTKOVITES BELLINII)",
+        "Vorkommen": "Unter f\u00fcnfnadeligen Kiefern ist er ein Mykorrhizapilz (Symbiosepilz) z.B. der Zirbelkiefer (pinus cembra) auch Arbe, Arve, Zirbe oder Zirbel genannt oder der Weymouthskiefer (pinus strobus), h\u00e4ufiger im mediterranen Raum",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 4.0,
+        "count": 1
+    },
+    {
+        "Name": "Wei\u00dfer Birkenpilz, Moorbirkenpilz",
+        "Latein (wissenschaftlich)": "LECCINUM SCABRUM (VAR. NIVEUM, VAR. LECCINUM NUCATUM, LECCINUM HOLOPUS)",
+        "Vorkommen": "Birken, Symbiosepilz",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Wei\u00dfer Steinpilz, Wei\u00dfer Steini",
+        "Latein (wissenschaftlich)": "BOLETUS EDULIS VARIET\u00c4T ALBA",
+        "Vorkommen": "Mischwald",
+        "Wann": "Fr\u00fchsommer bis Sp\u00e4therbst",
+        "Speisewert": 1.0,
+        "count": 1
+    },
+    {
+        "Name": "Wollstieliger Raufu\u00dfr\u00f6hrlinge, Raustielr\u00f6hrling, Graubrauner Birkenpilz",
+        "Latein (wissenschaftlich)": "LECCINUM BRUNNEOGRISEOLUM",
+        "Vorkommen": "Feuchten Moorwald, saure B\u00f6den, Symbiosepilz (Mykorrhizapilz)",
+        "Wann": "Sommer bis Sp\u00e4therbst",
+        "Speisewert": 3.0,
+        "count": 1
+    },
+    {
+        "Name": "Ziegenlippe, Schafheiterl, Brauner Filzr\u00f6hrling, Filziger R\u00f6hrling",
+        "Latein (wissenschaftlich)": "XEROCOMUS SUBTOMENTOSUS",
+        "Vorkommen": "Mischwald",
+        "Wann": "Sommer bis Herbst",
+        "Speisewert": 3.0,
+        "count": 1
+    }
+]
