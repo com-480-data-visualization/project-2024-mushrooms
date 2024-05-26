@@ -1,12 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { Slider, Row, Col, Divider } from 'antd';
 
-const HomePage = () => (
+import styled from 'styled-components';
+
+import PaintMushroom from '../paintMushroom/PaintMushroom';
+import { SketchPicker } from 'react-color';
+
+const CustomDivider = styled(Divider)`
+  color: #1890ff;
+  font-size: 24px;
+  margin: 20px 0;
+`;
+
+const CustomSlider = styled(Slider)`
+  width: 80%;
+  margin: 20px;
+`;
+
+
+const HomePage = () => {
+  const [color, setColor] = useState('#FF6347');
+  const [size, setSize] = useState(200);
+
+  return (
   <div>
     <div>
       <h1>Home Page</h1>
     </div>
     <div style={{ padding: 20 }}>
-      <CustomDivider>蘑菇可视化</CustomDivider>
+
+      <CustomDivider>Mushroom Visualization</CustomDivider>
       <Row>
         <Col span={12}>
           <SketchPicker
@@ -27,7 +50,8 @@ const HomePage = () => (
       <PaintMushroom color={color} size={size} />
     </div>
   </div>
-);
+  );
+};
 
 export default HomePage;
 

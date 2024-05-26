@@ -4,13 +4,9 @@ import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/
 import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-import styled from 'styled-components';
-
 import Page1 from './pages/page1';
 import HomePage from './pages/homepage';
 
-import PaintMushroom from './paintMushroom/paintMushroom';
-import { SketchPicker } from 'react-color';
 
 const { Header, Content, Sider } = Layout;
 
@@ -36,28 +32,18 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
   };
 });
 
-const CustomDivider = styled(Divider)`
-  color: #1890ff;
-  font-size: 24px;
-  margin: 20px 0;
-`;
 
-const CustomSlider = styled(Slider)`
-  width: 80%;
-  margin: 20px;
-`;
 
 const App = () => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
 
-  const [color, setColor] = useState('#FF6347');
-  const [size, setSize] = useState(200);
 
   return (
     <Router>
       <Layout>
+        {/*
         <Header
           style={{
             display: 'flex',
@@ -76,6 +62,7 @@ const App = () => {
             }}
           />
         </Header>
+        */}
         <Layout>
           <Sider
             width={200}
