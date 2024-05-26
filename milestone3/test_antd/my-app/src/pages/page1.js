@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Stacked from '../visualize/stacked';
 
 const Page1 = () => {
   const [firstSelectValue, setFirstSelectValue] = useState('');
@@ -45,6 +46,7 @@ const Page1 = () => {
         </select>
       </div>
       <button onClick={handleSubmit}>Submit</button>
+      <Stacked />
     </div>
   );
 };
