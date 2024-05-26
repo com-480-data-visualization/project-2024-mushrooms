@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Stacked from '../visualize/stacked';
 
-const Page1 = () => {
+const Stack = () => {
   const [firstSelectValue, setFirstSelectValue] = useState('');
   const [secondSelectValue, setSecondSelectValue] = useState('');
 
@@ -24,6 +24,7 @@ const Page1 = () => {
     // Do something with the values
 
     
+    
   };
 
   return (
@@ -31,7 +32,7 @@ const Page1 = () => {
       <h1>Placeholder for the title.</h1>
       <div>
         <select value={firstSelectValue} onChange={handleFirstSelectChange}>
-          <option value="" disabled>Select an option</option>
+          <option value="" disabled>Select Feature 1</option>
           <option value="option1-1">Option 1-1</option>
           <option value="option1-2">Option 1-2</option>
           <option value="option1-3">Option 1-3</option>
@@ -39,7 +40,7 @@ const Page1 = () => {
       </div>
       <div>
         <select value={secondSelectValue} onChange={handleSecondSelectChange}>
-          <option value="" disabled>Select an option</option>
+          <option value="" disabled>Select Feature 2</option>
           <option value="option2-1">Option 2-1</option>
           <option value="option2-2">Option 2-2</option>
           <option value="option2-3">Option 2-3</option>
@@ -47,8 +48,11 @@ const Page1 = () => {
       </div>
       <button onClick={handleSubmit}>Submit</button>
       <Stacked />
+      <div>
+        Placeholder for the text.
+      </div>
     </div>
   );
 };
 
-export default Page1;
+export default Stack;
