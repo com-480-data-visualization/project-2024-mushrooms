@@ -2,11 +2,19 @@ import React from 'react';
 import './index.css';
 import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
+import Page1 from './pages/page1';
+import HomePage from './pages/homepage';
+
 const { Header, Content, Sider } = Layout;
+
 const items1 = ['1', '2', '3'].map((key) => ({
   key,
-  label: `nav ${key}`,
+  label: <Link to={`/page${key}`}>nav {key}</Link>,
 }));
+
+
 const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
   const key = String(index + 1);
   return {
@@ -17,81 +25,89 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
       const subKey = index * 4 + j + 1;
       return {
         key: subKey,
-        label: `option${subKey}`,
+        label: <Link to={`/subpage${subKey}`}>option{subKey}</Link>,
       };
     }),
   };
 });
+
+
 const App = () => {
   const {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
   return (
-    <Layout>
-      <Header
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-        }}
-      >
-        <div className="demo-logo" />
-        <Menu
-          theme="dark"
-          mode="horizontal"
-          defaultSelectedKeys={['2']}
-          items={items1}
-          style={{
-            flex: 1,
-            minWidth: 0,
-          }}
-        />
-      </Header>
+    <Router>
       <Layout>
-        <Sider
-          width={200}
+        <Header
           style={{
-            background: colorBgContainer,
+            display: 'flex',
+            alignItems: 'center',
           }}
         >
+          <div className="demo-logo" />
           <Menu
-            mode="inline"
-            defaultSelectedKeys={['1']}
-            defaultOpenKeys={['sub1']}
+            theme="dark"
+            mode="horizontal"
+            defaultSelectedKeys={['2']}
+            items={items1}
             style={{
-              height: '100%',
-              borderRight: 0,
+              flex: 1,
+              minWidth: 0,
             }}
-            items={items2}
           />
-        </Sider>
-        <Layout
-          style={{
-            padding: '0 24px 24px',
-          }}
-        >
-          <Breadcrumb
+        </Header>
+        <Layout>
+          <Sider
+            width={200}
             style={{
-              margin: '16px 0',
-            }}
-          >
-            <Breadcrumb.Item>Home</Breadcrumb.Item>
-            <Breadcrumb.Item>List</Breadcrumb.Item>
-            <Breadcrumb.Item>App</Breadcrumb.Item>
-          </Breadcrumb>
-          <Content
-            style={{
-              padding: 24,
-              margin: 0,
-              minHeight: 280,
               background: colorBgContainer,
-              borderRadius: borderRadiusLG,
             }}
           >
-            Content
-          </Content>
+            <Menu
+              mode="inline"
+              defaultSelectedKeys={['1']}
+              defaultOpenKeys={['sub1']}
+              style={{
+                height: '100%',
+                borderRight: 0,
+              }}
+              items={items2}
+            />
+          </Sider>
+          <Layout
+            style={{
+              padding: '0 24px 24px',
+            }}
+          >
+            <Breadcrumb
+              style={{
+                margin: '16px 0',
+              }}
+            >
+              <Breadcrumb.Item>Home</Breadcrumb.Item>
+              <Breadcrumb.Item>List</Breadcrumb.Item>
+              <Breadcrumb.Item>App</Breadcrumb.Item>
+            </Breadcrumb>
+            <Content
+              style={{
+                padding: 24,
+                margin: 0,
+                minHeight: 280,
+                background: colorBgContainer,
+                borderRadius: borderRadiusLG,
+              }}
+            >
+              <Routes>
+                <Route exact path="/" element={<HomePage />} />
+                <Route path="/subpage1" element={<Page1 />} />
+              </Routes>
+            </Content>
+          </Layout>
         </Layout>
       </Layout>
-    </Layout>
+    </Router>
   );
 };
+
 export default App;
