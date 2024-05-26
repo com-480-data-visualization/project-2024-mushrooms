@@ -4,6 +4,7 @@
 3. scatter plot
 4. 搜索到外链
 5. 画蘑菇
+6. 新的dataset：https://www.kaggle.com/datasets/dhinaharp/mushroom-dataset
 
 # NOTICE
 1. after `npm run build`, push at the root dir with `git subtree push --prefix=milestone3\test_antd\my-app\build origin gh-pages`
