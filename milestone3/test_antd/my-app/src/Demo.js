@@ -1,8 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './index.css';
 import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+
 
 import Page1 from './pages/page1';
 import HomePage from './pages/homepage';
@@ -33,7 +34,6 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
 });
 
 
-
 const App = () => {
   const {
     token: { colorBgContainer, borderRadiusLG },
@@ -43,7 +43,6 @@ const App = () => {
   return (
     <Router>
       <Layout>
-        {/*
         <Header
           style={{
             display: 'flex',
@@ -62,7 +61,6 @@ const App = () => {
             }}
           />
         </Header>
-        */}
         <Layout>
           <Sider
             width={200}
