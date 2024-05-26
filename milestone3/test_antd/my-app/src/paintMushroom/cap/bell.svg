@@ -1,0 +1,6 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bell-shaped Mushroom Cap -->
+  <path d="M100,50 C70,50 50,100 100,150 C150,100 130,50 100,50 Z" fill="#FF6347" />
+  <!-- Mushroom Stem -->
+  <rect x="90" y="150" width="20" height="50" fill="#8B4513" />
+</svg>

@@ -3,7 +3,7 @@ import { Slider, Row, Col, Divider } from 'antd';
 
 import styled from 'styled-components';
 
-import PaintMushroom from '../paintMushroom/PaintMushroom';
+import PaintMushroom from '../paintMushroom/paintMushroom';
 import { SketchPicker } from 'react-color';
 
 const CustomDivider = styled(Divider)`
