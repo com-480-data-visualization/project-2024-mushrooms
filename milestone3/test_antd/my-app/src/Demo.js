@@ -39,6 +39,7 @@ const App = () => {
   return (
     <Router>
       <Layout>
+        {/*
         <Header
           style={{
             display: 'flex',
@@ -57,6 +58,7 @@ const App = () => {
             }}
           />
         </Header>
+          */}
         <Layout>
           <Sider
             width={200}
