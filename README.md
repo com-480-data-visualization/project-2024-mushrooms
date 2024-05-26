@@ -1,3 +1,10 @@
+# TODO
+1. 桑基图
+2. 封面的词云
+3. scatter plot
+4. 搜索到外链
+5. 画蘑菇
+
 # NOTICE
 1. after `npm run build`, push at the root dir with `git subtree push --prefix=milestone3\test_antd\my-app\build origin gh-pages`
 2. make sure the `'homepage'` in package.json is correctly set (or the default is `'/'`)
