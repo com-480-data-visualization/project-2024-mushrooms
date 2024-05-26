@@ -1,0 +1,18 @@
+/* Mushroom.module.css */
+.mushroomContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.customDivider {
+  color: #1890ff;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.customSlider {
+  width: 80%;
+  margin: 20px;
+}
