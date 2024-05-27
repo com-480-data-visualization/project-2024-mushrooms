@@ -4,6 +4,8 @@ import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/
 import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
+import Table_ from './visualize/table';
+import Detail from './visualize/detail'
 import Cloud from './visualize/cloud';
 import Pie from './pages/pie';
 import Stack from './pages/stack';
@@ -21,8 +23,8 @@ const { Header, Content, Sider } = Layout;
       key: `sub${key}`,
       icon: React.createElement(icon),
       label: `Navigation`,
-      children: new Array(4).fill(null).map((_, j) => {
-        const subKey = index * 4 + j + 1;
+      children: new Array(6).fill(null).map((_, j) => {
+        const subKey = index * 6 + j + 1;
         let label;
         let linkName;
         switch (subKey) {
@@ -41,6 +43,14 @@ const { Header, Content, Sider } = Layout;
           case 4:
             label = "Cloud Chart";
             linkName = "cloud-chart";
+            break;
+          case 5:
+            label = "Details";
+            linkName = "detail";
+            break;
+          case 6:
+            label = "Overview";
+            linkName = "overview";
             break;
           default:
             label = `Option ${subKey}`;
@@ -108,6 +118,8 @@ const App = () => {
                 <Route path="/stack-chart" element={<Stack />} />
                 <Route path="/pie-chart" element={<Pie />} />
                 <Route path="/cloud-chart" element={<Cloud />} />
+                <Route path="/detail" element={<Detail />} />
+                <Route path="/overview" element={<Table_ />} />
               </Routes>
             </Content>
           </Layout>
