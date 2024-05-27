@@ -4,35 +4,55 @@ import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/
 import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 
-
+import Cloud from './visualize/cloud';
+import Pie from './pages/pie';
 import Stack from './pages/stack';
 import HomePage from './pages/homepage';
 
 
 const { Header, Content, Sider } = Layout;
 
-const items1 = ['1', '2', '3'].map((key) => ({
-  key,
-  label: <Link to={`/page${key}`}>nav {key}</Link>,
-}));
 
 
-const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
-  const key = String(index + 1);
-  return {
-    key: `sub${key}`,
-    icon: React.createElement(icon),
-    label: `subnav ${key}`,
-    children: new Array(4).fill(null).map((_, j) => {
-      const subKey = index * 4 + j + 1;
-      return {
-        key: subKey,
-        label: <Link to={`/subpage${subKey}`}>option{subKey}</Link>,
-      };
-    }),
-  };
-});
-
+//const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, index) => {
+  const items2 = [NotificationOutlined].map((icon, index) => {
+    const key = String(index + 1);
+    return {
+      key: `sub${key}`,
+      icon: React.createElement(icon),
+      label: `Navigation`,
+      children: new Array(4).fill(null).map((_, j) => {
+        const subKey = index * 4 + j + 1;
+        let label;
+        let linkName;
+        switch (subKey) {
+          case 1:
+            label = "HomePage";
+            linkName = "";
+            break;
+          case 2:
+            label = "Stack Chart";
+            linkName = "stack-chart";
+            break;
+          case 3:
+            label = "Pie Chart";
+            linkName = "pie-chart";
+            break;
+          case 4:
+            label = "Cloud Chart";
+            linkName = "cloud-chart";
+            break;
+          default:
+            label = `Option ${subKey}`;
+            linkName = `option${subKey}`;
+        }
+        return {
+          key: subKey,
+          label: <Link to={`/${linkName}`}>{label}</Link>, // Use label instead of option{subKey}
+        };
+      }),
+    };
+  });
 
 const App = () => {
   const {
@@ -43,24 +63,7 @@ const App = () => {
   return (
     <Router>
       <Layout>
-        <Header
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-          }}
-        >
-          <div className="demo-logo" />
-          <Menu
-            theme="dark"
-            mode="horizontal"
-            defaultSelectedKeys={['2']}
-            items={items1}
-            style={{
-              flex: 1,
-              minWidth: 0,
-            }}
-          />
-        </Header>
+        
         <Layout>
           <Sider
             width={200}
@@ -90,8 +93,6 @@ const App = () => {
               }}
             >
               <Breadcrumb.Item>Home</Breadcrumb.Item>
-              <Breadcrumb.Item>List</Breadcrumb.Item>
-              <Breadcrumb.Item>App</Breadcrumb.Item>
             </Breadcrumb>
             <Content
               style={{
@@ -104,7 +105,9 @@ const App = () => {
             >
               <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/subpage1" element={<Stack />} />
+                <Route path="/stack-chart" element={<Stack />} />
+                <Route path="/pie-chart" element={<Pie />} />
+                <Route path="/cloud-chart" element={<Cloud />} />
               </Routes>
             </Content>
           </Layout>
