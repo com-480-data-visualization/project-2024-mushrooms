@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Table, Tag, Select } from 'antd';
 import { Link } from 'react-router-dom';
-import mushroomData from './primary_data.json'; // Import mushroom data from JSON file
+import mushroomData from './processed_mushroom_data.json'; // Import mushroom data from JSON file
 
 const { Option } = Select;
 
