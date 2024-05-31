@@ -133,7 +133,7 @@ Please click the following links to see the report and the initial website. [rep
 
 ## Milestone 3 (31st May, 5pm)
 
-[report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone3/Report3.pdf)
+[report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone3/report3.pdf)
 [website](https://com-480-data-visualization.github.io/project-2024-mushrooms/index.html).
 
 
