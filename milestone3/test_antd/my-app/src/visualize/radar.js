@@ -2,19 +2,29 @@ import { Radar } from '@ant-design/plots';
 import React from 'react';
 
 const DemoRadar = ({ mushroom }) => {
+  // Parse the attributes as arrays
+  const capDiameter = JSON.parse(mushroom["cap-diameter"] || '[]');
+  const stemHeight = JSON.parse(mushroom["stem-height"] || '[]');
+  const stemWidth = JSON.parse(mushroom["stem-width"] || '[]');
+
+  // Ensure they are arrays and contain numbers
+  if (!Array.isArray(capDiameter) || !Array.isArray(stemHeight) || !Array.isArray(stemWidth)) {
+    return <div>Error: Mushroom data format is incorrect.</div>;
+  }
+
   const processedData = [
-    { item: 'Cap Diameter', type: 'a', score: parseFloat(mushroom["cap-diameter"][0]) },
-    { item: 'Cap Diameter', type: 'b', score: parseFloat(mushroom["cap-diameter"][1]) },
-    { item: 'Stem Height', type: 'a', score: parseFloat(mushroom["stem-height"][0]) },
-    { item: 'Stem Height', type: 'b', score: parseFloat(mushroom["stem-height"][1]) },
-    { item: 'Stem Width', type: 'a', score: parseFloat(mushroom["stem-width"][0]) },
-    { item: 'Stem Width', type: 'b', score: parseFloat(mushroom["stem-width"][1]) }
+    { item: 'Cap Diameter', type: 'min', score: parseFloat(capDiameter[0]) },
+    { item: 'Cap Diameter', type: 'max', score: parseFloat(capDiameter[1]) },
+    { item: 'Stem Height', type: 'min', score: parseFloat(stemHeight[0]) },
+    { item: 'Stem Height', type: 'max', score: parseFloat(stemHeight[1]) },
+    { item: 'Stem Width', type: 'min', score: parseFloat(stemWidth[0]) },
+    { item: 'Stem Width', type: 'max', score: parseFloat(stemWidth[1]) }
   ];
 
   const maxValues = {
-    "Cap Diameter": Math.max(...mushroom["cap-diameter"].map(parseFloat)),
-    "Stem Height": Math.max(...mushroom["stem-height"].map(parseFloat)),
-    "Stem Width": Math.max(...mushroom["stem-width"].map(parseFloat)),
+    "Cap Diameter": Math.max(...capDiameter.map(parseFloat)),
+    "Stem Height": Math.max(...stemHeight.map(parseFloat)),
+    "Stem Width": Math.max(...stemWidth.map(parseFloat)),
   };
 
   const config = {
