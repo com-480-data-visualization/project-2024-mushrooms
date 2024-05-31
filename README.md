@@ -135,6 +135,7 @@ Please click the following links to see the report and the initial website. [rep
 
 [report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone3/report3.pdf)
 [website](https://com-480-data-visualization.github.io/project-2024-mushrooms/index.html).
+[video](https://youtu.be/mlHfRZROSyI)
 
 
 ## Late policy
