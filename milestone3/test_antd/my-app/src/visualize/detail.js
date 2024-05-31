@@ -196,7 +196,7 @@ const MushroomTable = () => {
           ))}
         </Select>
         {/*if selected mushroom, display the DemoRadar component*/}
-        {selectedMushroom && <DemoRadar data={selectedMushroom} />}
+        {selectedMushroom && <DemoRadar mushroom={selectedMushroom} />}
 
       </div>
 
