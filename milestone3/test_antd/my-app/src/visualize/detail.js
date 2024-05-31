@@ -144,6 +144,10 @@ const MushroomTable = () => {
   const handleCheckboxChange = (checkedValues) => {
     setCheckedColumns(checkedValues);
   };
+  const handleReset = () => {
+    setSelectedMushroom(null);
+  };
+  
 
   const columns = [
     {
@@ -195,6 +199,7 @@ const MushroomTable = () => {
             </Option>
           ))}
         </Select>
+        <Button onClick={handleReset} >RESET</Button>
         {/*if selected mushroom, display the DemoRadar component*/}
         {selectedMushroom && <DemoRadar mushroom={selectedMushroom} />}
 
