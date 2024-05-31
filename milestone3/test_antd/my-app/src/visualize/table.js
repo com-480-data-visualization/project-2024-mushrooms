@@ -1,5 +1,6 @@
 import React from 'react';
 import { Typography, Layout } from 'antd';
+import Carousel from './WalkHorseLight';
 
 const { Title, Paragraph } = Typography;
 const { Content } = Layout;
@@ -8,6 +9,7 @@ const MushroomStory = () => {
   return (
     <Layout style={{ padding: '24px', background: '#fff' }}>
       <Content>
+        <Carousel />
         <Typography>
 
         <Title level={1}>Overview of the charts</Title>
