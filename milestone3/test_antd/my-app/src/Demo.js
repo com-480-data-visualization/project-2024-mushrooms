@@ -113,6 +113,7 @@ const App = () => {
               }}
             >
               <Routes>
+              <Route exact path="/" element={<Table_ />} />
                 <Route exact path="/project-2024-mushrooms" element={<Table_ />} />
                 <Route path="/project-2024-mushrooms/stack-chart" element={<Stack />} />
                 <Route path="/project-2024-mushrooms/pie-chart" element={<Pie />} />
