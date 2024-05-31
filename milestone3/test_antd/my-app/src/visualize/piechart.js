@@ -75,6 +75,7 @@ const DemoPie = () => {
 export default DemoPie;
 */
 import React, { useState } from 'react';
+import { Select } from 'antd';
 import { Pie } from '@ant-design/plots';
 import data from './processed_mushroom_data.json'; // Import your JSON data
 
@@ -156,13 +157,19 @@ const DemoPie = () => {
 
     return (
         <div>
-            <select value={selectedFeature} onChange={(e) => handleChange(e.target.value)}>
-                {nominalFeatures.map((feature) => (
-                    <option key={feature} value={feature}>
-                        {feature.replace(/-/g, ' ')}
-                    </option>
-                ))}
-            </select>
+            <div style={{textAlign: 'center'}}>
+            <Select value={selectedFeature} 
+                    style={{ width: 200, marginRight: 16 } }
+                    placeholder="Select Feature"
+                    onChange={handleChange}>
+                    {/* onChange={(e) => handleChange(e.target.value)}> */}
+                        {nominalFeatures.map((feature) => (
+                            <option key={feature} value={feature}>
+                                {feature.replace(/-/g, ' ')}
+                            </option>
+                        ))}
+            </Select>
+            </div>
             <Pie {...config} />
         </div>
     );

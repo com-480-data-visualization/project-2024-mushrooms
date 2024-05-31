@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './index.css';
 import { LaptopOutlined, NotificationOutlined, UserOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, theme, Slider, Row, Col, Divider } from 'antd';
@@ -12,6 +12,7 @@ import Stack from './pages/stack';
 import HomePage from './pages/homepage';
 
 import Breadcrumbs from './breadcrumb';
+import Loading from './loading';
 
 
 const { Header, Content, Sider } = Layout;
@@ -73,6 +74,20 @@ const App = () => {
     token: { colorBgContainer, borderRadiusLG },
   } = theme.useToken();
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // 模拟加载过程
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 2000); // 2秒后取消加载
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <Router>
