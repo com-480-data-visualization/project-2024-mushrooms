@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
 import { Area } from '@ant-design/plots';
 import { Select } from 'antd';
-import axios from 'axios';
+import mushroomData from './mushroom_transformed_final.json';
 
 const { Option } = Select;
 
@@ -14,22 +14,16 @@ const Stacked = () => {
   const [colorField, setColorField] = useState('');
 
   useEffect(() => {
-    // Fetch data from your JSON file
-    axios.get('./dataset/mushroom_transformed_final.json')
-      .then(response => {
-        const fetchedData = response.data;
-        console.log('Fetched data:', fetchedData);
-        setData(fetchedData);
-        // Extract feature names from the first entry
-        const featureNames = Object.keys(fetchedData[0]).filter(key => key !== 'count');
-
-        console.log('Feature names:', featureNames);
-
-        setFeatures(featureNames);
-        setXField(featureNames[0]);
-        setColorField(featureNames[1]);
-      })
-      .catch(error => console.error("Error fetching data:", error));
+    // Use imported JSON data directly
+    const fetchedData = mushroomData;
+    console.log('Fetched data:', fetchedData);
+    setData(fetchedData);
+    // Extract feature names from the first entry
+    const featureNames = Object.keys(fetchedData[0]).filter(key => key !== 'count');
+    console.log('Feature names:', featureNames);
+    setFeatures(featureNames);
+    setXField(featureNames[0]);
+    setColorField(featureNames[1]);
   }, []);
 
   useEffect(() => {
@@ -44,24 +38,24 @@ const Stacked = () => {
         return acc;
       }, {});
     
-            // Get all unique values for xField and colorField
-    const xValues = [...new Set(data.map(item => item[xField]))];
-    const colorValues = [...new Set(data.map(item => item[colorField]))];
+      // Get all unique values for xField and colorField
+      const xValues = [...new Set(data.map(item => item[xField]))];
+      const colorValues = [...new Set(data.map(item => item[colorField]))];
 
-          // Generate all possible combinations of xField and colorField
-    const allCombinations = [];
-    xValues.forEach(xVal => {
-      colorValues.forEach(colorVal => {
-        const key = `${xVal}-${colorVal}`;
-        if (grouped[key]) {
-          allCombinations.push(grouped[key]);
-        } else {
-          allCombinations.push({ [xField]: xVal, [colorField]: colorVal, count: 0 });
-        }
+      // Generate all possible combinations of xField and colorField
+      const allCombinations = [];
+      xValues.forEach(xVal => {
+        colorValues.forEach(colorVal => {
+          const key = `${xVal}-${colorVal}`;
+          if (grouped[key]) {
+            allCombinations.push(grouped[key]);
+          } else {
+            allCombinations.push({ [xField]: xVal, [colorField]: colorVal, count: 0 });
+          }
+        });
       });
-    });
 
-    const orderedGroupedData = allCombinations.map(item => ({
+      const orderedGroupedData = allCombinations.map(item => ({
         [xField]: item[xField],
         [colorField]: item[colorField],
         count: item.count,
@@ -121,3 +115,4 @@ const Stacked = () => {
 };
 
 export default Stacked;
+
