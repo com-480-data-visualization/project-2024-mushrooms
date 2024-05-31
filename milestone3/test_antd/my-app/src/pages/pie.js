@@ -29,15 +29,12 @@ const Stack = () => {
 
   return (
     <div>
-      <h1>Placeholder for the title.</h1>
+      <h1>Pie Chart</h1>
       
       <div>
-        Placeholder for the text.
+        This pie chart illustrates the proportional relationships between various parameters. Please select the parameter you desire:
       </div>
       <Piechart />
-      <div>
-        Placeholder for the text.
-      </div>
     </div>
   );
 };
