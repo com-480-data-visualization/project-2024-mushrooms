@@ -3,6 +3,7 @@ import { Select, Table, Carousel, Checkbox, Row, Col, Button } from 'antd';
 import { Link } from 'react-router-dom';
 import mushroomData from './processed_mushroom_data.json'; // Import mushroom data from JSON file
 import WHLight from './WalkHorseLight';
+import DemoRadar from './radar';
 
 const { Option } = Select;
 
@@ -281,7 +282,9 @@ const MushroomTable = () => {
             </Option>
           ))}
         </Select>
-        <WHLight />
+        {/*if selected mushroom, display the DemoRadar component*/}
+        {selectedMushroom && <DemoRadar data={selectedMushroom} />}
+
       </div>
 
       <Row gutter={[16, 16]} style={{ marginBottom: '16px' }}>
