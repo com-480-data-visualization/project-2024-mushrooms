@@ -11,6 +11,8 @@ import Pie from './pages/pie';
 import Stack from './pages/stack';
 import HomePage from './pages/homepage';
 
+import Breadcrumbs from './breadcrumb';
+
 
 const { Header, Content, Sider } = Layout;
 
@@ -23,13 +25,13 @@ const { Header, Content, Sider } = Layout;
       key: `sub${key}`,
       icon: React.createElement(icon),
       label: `Navigation`,
-      children: new Array(6).fill(null).map((_, j) => {
-        const subKey = index * 6 + j + 1;
+      children: new Array(5).fill(null).map((_, j) => {
+        const subKey = index * 5 + j + 1;
         let label;
         let linkName;
         switch (subKey) {
           case 1:
-            label = "HomePage";
+            label = "Overview";
             linkName = "";
             break;
           case 2:
@@ -48,10 +50,12 @@ const { Header, Content, Sider } = Layout;
             label = "Details";
             linkName = "detail";
             break;
+        {/* 
           case 6:
-            label = "Overview";
-            linkName = "overview";
+            label = "HomePage";
+            linkName = "homepage";
             break;
+        */}
           default:
             label = `Option ${subKey}`;
             linkName = `option${subKey}`;
@@ -96,14 +100,9 @@ const App = () => {
             style={{
               padding: '0 24px 24px',
             }}
-          >
-            <Breadcrumb
-              style={{
-                margin: '16px 0',
-              }}
-            >
-              <Breadcrumb.Item>Home</Breadcrumb.Item>
-            </Breadcrumb>
+          > 
+
+            <Breadcrumbs />
             <Content
               style={{
                 padding: 24,
@@ -114,12 +113,12 @@ const App = () => {
               }}
             >
               <Routes>
-                <Route exact path="/" element={<HomePage />} />
+                <Route exact path="/" element={<Table_ />} />
                 <Route path="/stack-chart" element={<Stack />} />
                 <Route path="/pie-chart" element={<Pie />} />
                 <Route path="/cloud-chart" element={<Cloud />} />
                 <Route path="/detail" element={<Detail />} />
-                <Route path="/overview" element={<Table_ />} />
+                <Route path="/homepage" element={<HomePage />} />
               </Routes>
             </Content>
           </Layout>
