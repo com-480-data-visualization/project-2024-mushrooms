@@ -32,23 +32,23 @@ const { Header, Content, Sider } = Layout;
         switch (subKey) {
           case 1:
             label = "Overview";
-            linkName = "";
+            linkName = "project-2024-mushrooms";
             break;
           case 2:
             label = "Stack Chart";
-            linkName = "stack-chart";
+            linkName = "project-2024-mushrooms/stack-chart";
             break;
           case 3:
             label = "Pie Chart";
-            linkName = "pie-chart";
+            linkName = "project-2024-mushrooms/pie-chart";
             break;
           case 4:
             label = "Cloud Chart";
-            linkName = "cloud-chart";
+            linkName = "project-2024-mushrooms/cloud-chart";
             break;
           case 5:
             label = "Details";
-            linkName = "detail";
+            linkName = "project-2024-mushrooms/detail";
             break;
         {/* 
           case 6:
@@ -113,12 +113,12 @@ const App = () => {
               }}
             >
               <Routes>
-                <Route exact path="/" element={<Table_ />} />
-                <Route path="/stack-chart" element={<Stack />} />
-                <Route path="/pie-chart" element={<Pie />} />
-                <Route path="/cloud-chart" element={<Cloud />} />
-                <Route path="/detail" element={<Detail />} />
-                <Route path="/homepage" element={<HomePage />} />
+                <Route exact path="/project-2024-mushrooms" element={<Table_ />} />
+                <Route path="/project-2024-mushrooms/stack-chart" element={<Stack />} />
+                <Route path="/project-2024-mushrooms/pie-chart" element={<Pie />} />
+                <Route path="/project-2024-mushrooms/cloud-chart" element={<Cloud />} />
+                <Route path="/project-2024-mushrooms/detail" element={<Detail />} />
+                <Route path="/project-2024-mushrooms/homepage" element={<HomePage />} />
               </Routes>
             </Content>
           </Layout>
