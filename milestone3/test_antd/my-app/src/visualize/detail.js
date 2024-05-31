@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Table, Tag, Select } from 'antd';
 import { Link } from 'react-router-dom';
 import mushroomData from './processed_mushroom_data.json'; // Import mushroom data from JSON file
+import WHLight from './WalkHorseLight';
 
 const { Option } = Select;
 
@@ -124,21 +125,25 @@ const Detail = () => {
 
   return (
     <div>
-      <Select
-        showSearch
-        placeholder="Select a mushroom"
-        style={{ width: 200, marginBottom: 20 }}
-        onChange={handleSelectChange}
-        filterOption={(input, option) =>
-          option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
-        }
-      >
-        {mushroomData.map((mushroom) => (
-          <Option key={mushroom.name} value={mushroom.name}>
-            {mushroom.name}
-          </Option>
-        ))}
-      </Select>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginBottom: 20 }}>
+          <Select
+            showSearch
+            placeholder="Select a mushroom"
+            style={{ width: 200, marginBottom: 20 }}
+            onChange={handleSelectChange}
+            filterOption={(input, option) =>
+              option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+            }
+          >
+            {mushroomData.map((mushroom) => (
+              <Option key={mushroom.name} value={mushroom.name}>
+                {mushroom.name}
+              </Option>
+            ))}
+          </Select>
+          <WHLight />
+      </div>
+
       {selectedMushroom && (
         <Table
           columns={columns}
