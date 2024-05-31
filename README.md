@@ -1,13 +1,5 @@
-# TODO
-1. 桑基图
-2. 封面的词云
-3. scatter plot
-4. 搜索到外链
-5. 画蘑菇
-6. 新的dataset：https://www.kaggle.com/datasets/dhinaharp/mushroom-dataset
-
 # NOTICE
-1. after `npm run build`, push at the root dir with `git subtree push --prefix=milestone3\test_antd\my-app\build origin gh-pages`
+1. after `npm run build`, push at the root dir with `git subtree push --prefix=milestone3\test_antd\my-app\build origin gh-pages` or `git subtree push --prefix=milestone3/test_antd/my-app/build origin gh-pages`
 2. make sure the `'homepage'` in package.json is correctly set (or the default is `'/'`)
 
 # Project of Data Visualization (COM-480)
@@ -141,7 +133,8 @@ Please click the following links to see the report and the initial website. [rep
 
 ## Milestone 3 (31st May, 5pm)
 
-**80% of the final grade**
+[report](https://github.com/com-480-data-visualization/project-2024-mushrooms/blob/master/milestone3/report3.pdf)
+[website](https://com-480-data-visualization.github.io/project-2024-mushrooms/index.html).
 
 
 ## Late policy
