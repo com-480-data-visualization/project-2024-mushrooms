@@ -1,19 +1,13 @@
-import React from 'react';
-import { Table, Tag } from 'antd';
+import React, { useState } from 'react';
+import { Table, Checkbox, Row, Col } from 'antd';
 import { Link } from 'react-router-dom';
-import mushroomData from './processed_mushroom_data.json'; // Import mushroom data from JSON file
+import mushroomData from './processed_mushroom_data.json';
 
-const columns = [
+const initialColumns = [
   {
-    title: 'Name',
-    dataIndex: 'name',
-    key: 'name',
-    render: (text, record) => <Link to={`/wiki/${record.name}`}>{text}</Link>,
-  },
-  {
-    title: 'Family',
-    dataIndex: 'family',
-    key: 'family',
+    title: 'Class',
+    dataIndex: 'class',
+    key: 'class',
   },
   {
     title: 'Cap Diameter (cm)',
@@ -117,7 +111,61 @@ const columns = [
   },
 ];
 
-const MushroomTable = () => <Table columns={columns} dataSource={mushroomData} />;
+const importantColumns = [
+  'class',
+  'cap-diameter',
+  'cap-shape',
+  'cap-color',
+  'stem-height',
+  'stem-width',
+  'habitat',
+  'season',
+];
+
+const MushroomTable = () => {
+  const [checkedColumns, setCheckedColumns] = useState(importantColumns);
+
+  const handleCheckboxChange = (checkedValues) => {
+    setCheckedColumns(checkedValues);
+  };
+
+  const columns = [
+    {
+      title: 'Name',
+      dataIndex: 'name',
+      key: 'name',
+      render: (text, record) => <Link to={`/wiki/${record.name}`}>{text}</Link>,
+    },
+    {
+      title: 'Family',
+      dataIndex: 'family',
+      key: 'family',
+    },
+    ...initialColumns.filter(col => checkedColumns.includes(col.key))
+  ];
+
+  return (
+    <div>
+      <Row gutter={[16, 16]} style={{ marginBottom: '16px' }}>
+        {initialColumns.map(col => (
+          <Col key={col.key}>
+            <Checkbox
+              checked={checkedColumns.includes(col.key)}
+              onChange={(e) => {
+                const newCheckedColumns = e.target.checked
+                  ? [...checkedColumns, col.key]
+                  : checkedColumns.filter(key => key !== col.key);
+                handleCheckboxChange(newCheckedColumns);
+              }}
+            >
+              {col.title}
+            </Checkbox>
+          </Col>
+        ))}
+      </Row>
+      <Table columns={columns} dataSource={mushroomData} rowKey="name" />
+    </div>
+  );
+};
 
 export default MushroomTable;
-
