@@ -48,7 +48,7 @@ const { Header, Content, Sider } = Layout;
             break;
           case 5:
             label = "Detailed Table";
-            linkName = "project-2024-mushrooms/detail";
+            linkName = "project-2024-mushrooms/detailed-table";
             break;
         {/* 
           case 6:
@@ -117,7 +117,7 @@ const App = () => {
                 <Route path="/project-2024-mushrooms/stack-chart" element={<Stack />} />
                 <Route path="/project-2024-mushrooms/pie-chart" element={<Pie />} />
                 <Route path="/project-2024-mushrooms/cloud-chart" element={<Cloud />} />
-                <Route path="/project-2024-mushrooms/detail" element={<Detail />} />
+                <Route path="/project-2024-mushrooms/detailed-table" element={<Detail />} />
                 <Route path="/project-2024-mushrooms/homepage" element={<HomePage />} />
               </Routes>
             </Content>
