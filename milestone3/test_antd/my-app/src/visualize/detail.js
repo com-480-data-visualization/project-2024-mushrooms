@@ -125,9 +125,13 @@ const Detail = () => {
   return (
     <div>
       <Select
+        showSearch
         placeholder="Select a mushroom"
         style={{ width: 200, marginBottom: 20 }}
         onChange={handleSelectChange}
+        filterOption={(input, option) =>
+          option.children.toLowerCase().indexOf(input.toLowerCase()) >= 0
+        }
       >
         {mushroomData.map((mushroom) => (
           <Option key={mushroom.name} value={mushroom.name}>
