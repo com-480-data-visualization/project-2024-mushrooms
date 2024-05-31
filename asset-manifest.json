@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/project-2024-mushrooms/static/css/main.e5cdda46.css",
-    "main.js": "/project-2024-mushrooms/static/js/main.2fdaac07.js",
+    "main.css": "/project-2024-mushrooms/static/css/main.9fea6490.css",
+    "main.js": "/project-2024-mushrooms/static/js/main.9b20ffe4.js",
     "static/js/240.1ff267ee.chunk.js": "/project-2024-mushrooms/static/js/240.1ff267ee.chunk.js",
+    "static/media/background.png": "/project-2024-mushrooms/static/media/background.4a66f3acf32820de95c3.png",
     "index.html": "/project-2024-mushrooms/index.html",
-    "main.e5cdda46.css.map": "/project-2024-mushrooms/static/css/main.e5cdda46.css.map",
-    "main.2fdaac07.js.map": "/project-2024-mushrooms/static/js/main.2fdaac07.js.map",
+    "main.9fea6490.css.map": "/project-2024-mushrooms/static/css/main.9fea6490.css.map",
+    "main.9b20ffe4.js.map": "/project-2024-mushrooms/static/js/main.9b20ffe4.js.map",
     "240.1ff267ee.chunk.js.map": "/project-2024-mushrooms/static/js/240.1ff267ee.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5cdda46.css",
-    "static/js/main.2fdaac07.js"
+    "static/css/main.9fea6490.css",
+    "static/js/main.9b20ffe4.js"
   ]
 }
