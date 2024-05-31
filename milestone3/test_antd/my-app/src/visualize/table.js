@@ -9,6 +9,21 @@ const MushroomStory = () => {
     <Layout style={{ padding: '24px', background: '#fff' }}>
       <Content>
         <Typography>
+
+        <Title level={1}>Overview of the charts</Title>
+<Paragraph>
+  1. **Stack Chart**: Visualize mushroom data in terms of features, providing an insightful representation of different attributes.
+</Paragraph>
+<Paragraph>
+  2. **Pie Chart**: Explore the distribution of mushroom weights across various features, offering a clear understanding of weight distribution.
+</Paragraph>
+<Paragraph>
+  3. **Cloud Chart**: Randomly display mushroom names in a cloud chart, providing an engaging and dynamic way to explore mushroom names.
+</Paragraph>
+<Paragraph>
+  4. **Detailed Table**: Access a detailed table containing comprehensive information about mushrooms, presenting all relevant data in an organized format.
+</Paragraph>
+
           <Title level={1}>The Enchanted Forest</Title>
           <Paragraph>
             Once upon a time, in a vast and enchanted forest, there lived a diverse and fascinating kingdom of mushrooms. These mushrooms came in all shapes, sizes, colors, and textures, each with unique features that made them integral parts of the forest ecosystem. This is the story of the myriad mushrooms and the incredible diversity they bring to the natural world.

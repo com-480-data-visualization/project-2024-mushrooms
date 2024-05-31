@@ -47,7 +47,7 @@ const { Header, Content, Sider } = Layout;
             linkName = "project-2024-mushrooms/cloud-chart";
             break;
           case 5:
-            label = "Details";
+            label = "Detailed Table";
             linkName = "project-2024-mushrooms/detail";
             break;
         {/* 

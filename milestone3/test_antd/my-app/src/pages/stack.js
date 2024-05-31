@@ -29,14 +29,12 @@ const Stack = () => {
 
   return (
     <div>
-      <h1>Placeholder for the title.</h1>
+      <h1>Stack Chart</h1>
       <div>
-        Placeholder for the text.
+        In this stack chart, users can select two features to visualize the relationship between them. Please select your desired features.
       </div>
       <Stacked />
-      <div>
-        Placeholder for the text.
-      </div>
+      
     </div>
   );
 };
